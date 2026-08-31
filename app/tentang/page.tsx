@@ -16,7 +16,7 @@ export default function TentangPage() {
       />
       <section className="mx-auto max-w-3xl space-y-6 px-4 py-16 text-ink-200 leading-relaxed">
         <p>
-          Kumandang Bandung merupakan wadah bagi keluarga mahasiswa pandeglang yang berkuliah di bandung dan sekitarnya, 
+        Sebuah wadah yang mempertemukan mahasiswa asal Pandeglang yang menempuh pendidikan dan menjalani perjalanan hidup di Bandung, Kumandang Bandung menjadi rumah bagi para anggotanya untuk saling mengenal, bertumbuh, belajar, dan membangun solidaritas sebagai satu keluarga. 
         </p>
         <p>
           Melalui situs ini, pengurus, anggota, dan mitra dapat mengikuti profil organisasi,

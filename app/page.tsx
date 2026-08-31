@@ -9,8 +9,8 @@ export default function HomePage() {
   return (
     <>
       <Hero
-        title="Suara Bandung yang terus berkumandang sejak 1965."
-        subtitle="Kumandang Bandung 1965 merawat silaturahmi, kegiatan komunitas, dan warisan kota. Ruang ini untuk anggota, alumni, dan siapa pun yang ingin berkarya bersama."
+        title="Berangkat dari Pandeglang, bertumbuh di Bandung, dan bersama-sama melangkah untuk masa depan."
+        subtitle="Merawat silaturahmi, kegiatan komunitas, dan warisan kota. Ruang ini untuk anggota, alumni, dan siapa pun yang ingin berkarya bersama."
         ctaLabel="Tentang kami"
         ctaHref="/tentang"
       />
