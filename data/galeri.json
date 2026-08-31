@@ -1,0 +1,38 @@
+[
+  {
+    "id": "gal-001",
+    "judul": "Rapat Pengurus",
+    "kategori": "Internal",
+    "src": "/images/placeholder-gallery.svg"
+  },
+  {
+    "id": "gal-002",
+    "judul": "Campingkeun 2025",
+    "kategori": "Program",
+    "src": "/images/DSC07232.JPG"
+  },
+  {
+    "id": "gal-003",
+    "judul": "Silaturahmi Anggota",
+    "kategori": "Komunitas",
+    "src": "/images/placeholder-gallery.svg"
+  },
+  {
+    "id": "gal-004",
+    "judul": "Kunjungan Mitra",
+    "kategori": "Kerja sama",
+    "src": "/images/placeholder-gallery.svg"
+  },
+  {
+    "id": "gal-005",
+    "judul": "Malam Kumandang",
+    "kategori": "Publik",
+    "src": "/images/placeholder-gallery.svg"
+  },
+  {
+    "id": "gal-006",
+    "judul": "Arsip 1965",
+    "kategori": "Dokumentasi",
+    "src": "/images/placeholder-gallery.svg"
+  }
+]

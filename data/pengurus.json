@@ -1,0 +1,44 @@
+[
+  {
+    "id": "ketua",
+    "nama": "Muhammad Miftah",
+    "jabatan": "Ketua",
+    "periode": "2022-2026",
+    "foto": "/images/DSC07155.JPG"
+  },
+  {
+    "id": "Sekretaris",
+    "nama": "M. Fikri Adz-Dzikri",
+    "jabatan": "Sekretaris",
+    "periode": "2022-2026",
+    "foto": "/images/DSC07152.JPG"
+  },
+  {
+    "id": "Bendahara",
+    "nama": "Not Available",
+    "jabatan": " Not Available",
+    "periode": "2022-2026",
+    "foto": "/images/placeholder-avatar.svg"
+  },
+  {
+    "id": "bendahara",
+    "nama": "Ibrahim",
+    "jabatan": "Bendahara",
+    "periode": "2022-2026",
+    "foto": "/images/placeholder-avatar.svg"
+  },
+  {
+    "id": "humas",
+    "nama": "Sakmad",
+    "jabatan": "Koordinator Humas",
+    "periode": "2022-2026",
+    "foto": "/images/placeholder-avatar.svg"
+  },
+  {
+    "id": "program",
+    "nama": "Malih",
+    "jabatan": "Koordinator Program",
+    "periode": "2022-2026",
+    "foto": "/images/placeholder-avatar.svg"
+  }
+]
