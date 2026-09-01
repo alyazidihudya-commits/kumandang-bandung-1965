@@ -19,7 +19,7 @@ export default function AgendaBoard({ items }: { items: AgendaItem[] }) {
 
   return (
     <div>
-      <div className="inline-flex w-full rounded-full border border-white/10 bg-ink-800 p-1 sm:w-auto">
+      <div className="inline-flex w-full rounded-full border border-white/10 bg-ink-800 p-1 sm:w-auto bg-grid-pattern">
         {tabs.map((item) => (
           <button
             key={item.id}
@@ -36,7 +36,7 @@ export default function AgendaBoard({ items }: { items: AgendaItem[] }) {
 
       <div className="mt-8 grid gap-5">
         {filtered.length === 0 && (
-          <p className="rounded-2xl border border-white/10 bg-ink-800 px-5 py-10 text-center text-ink-300">
+          <p className="rounded-2xl border border-white/10 bg-ink-800 px-5 py-10 text-center text-ink-300 bg-grid-pattern">
             Belum ada kegiatan pada kategori ini.
           </p>
         )}
@@ -45,7 +45,7 @@ export default function AgendaBoard({ items }: { items: AgendaItem[] }) {
             key={`${item.judul}-${item.tanggal}`}
             className="grid overflow-hidden rounded-2xl border border-white/10 bg-ink-800 sm:grid-cols-[220px_1fr]"
           >
-            <div className="relative aspect-[16/10] sm:aspect-auto sm:min-h-[180px]">
+            <div className="relative aspect-[16/10] sm:aspect-auto sm:min-h-[180px]bg-grid-pattern">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={item.foto || "/images/agenda/placeholder.jpg"}
@@ -53,7 +53,7 @@ export default function AgendaBoard({ items }: { items: AgendaItem[] }) {
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="flex flex-col justify-center p-5 sm:p-6">
+            <div className="flex flex-col justify-center p-5 sm:p-6 bg-grid-pattern">
               <p className="text-gradient-accent text-xs font-semibold uppercase tracking-wider">
                 {formatTanggal(item.tanggal)}
                 {item.waktu ? ` · ${item.waktu}` : ""}
