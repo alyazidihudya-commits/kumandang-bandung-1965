@@ -18,7 +18,7 @@ export default function HomePage() {
     <BackgroundEffects />
       <Hero
         title="Rumah Kedua Mahasiswa Pandeglang di Bandung"
-        subtitle="KUMANDANG BANDUNG adalah organisasi kekeluargaan mahasiswa asal Pandeglang yang kuliah di Bandung. Di sini kita tumbuh bersama, saling jaga, dan tetap satu keluarga meski jauh dari kampung halaman."
+        subtitle="Kumandang Bandung didirikan pada tahun 19965 meerupakan organisasi kekeluargaan mahasiswa asal Pandeglang yang kuliah di Bandung. Di sini kita tumbuh bersama, saling jaga, dan tetap satu keluarga meski jauh dari kampung halaman."
       />
 
       <section className="relative overflow-hidden py-16 sm:py-20">
@@ -31,7 +31,7 @@ export default function HomePage() {
           />
           <div className="flex flex-col items-start gap-4">
             <p className="text-ink-300">
-              Lewat kegiatan rutin, pengabdian, dan kebersamaan sehari-hari, KUMANDANG merawat rasa
+              Lewat kegiatan rutin, pengabdian, dan kebersamaan sehari-hari, Kumandang berusaha merawat
               kekeluargaan yang tidak berhenti di gerbang kampus.
             </p>
             <Button href="/tentang" variant="secondary">
@@ -47,7 +47,7 @@ export default function HomePage() {
             <SectionHeading
               eyebrow="Agenda"
               title="Kegiatan terdekat"
-              description="Ikuti pertemuan, kajian, dan kegiatan bersama keluarga KUMANDANG."
+              description="Ikuti pertemuan, kajian, dan kegiatan bersama kami."
             />
             <Button href="/agenda" variant="outline" className="w-fit shrink-0">
               Lihat semua
