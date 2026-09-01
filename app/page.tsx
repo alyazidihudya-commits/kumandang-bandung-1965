@@ -18,7 +18,7 @@ export default function HomePage() {
     <BackgroundEffects />
       <Hero
         title="Rumah Kedua Mahasiswa Pandeglang di Bandung"
-        subtitle="Kumandang Bandung didirikan pada tahun 19965 meerupakan organisasi kekeluargaan mahasiswa asal Pandeglang yang kuliah di Bandung. Di sini kita tumbuh bersama, saling jaga, dan tetap satu keluarga meski jauh dari kampung halaman."
+        subtitle="Kumandang Bandung didirikan pada tahun 1965 merupakan organisasi kekeluargaan mahasiswa asal Pandeglang yang kuliah di Bandung. Di sini kita tumbuh bersama, saling jaga, dan tetap satu keluarga meski jauh dari kampung halaman."
       />
 
       <section className="relative overflow-hidden py-16 sm:py-20">
