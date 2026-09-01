@@ -10,7 +10,7 @@ type HeroProps = {
 export default function Hero({
   title,
   subtitle,
-  imageSrc = "/images/hero.jpg",
+  imageSrc = "/images/gradien",
 }: HeroProps) {
   return (
     <section className="relative isolate min-h-[88vh] overflow-hidden">
