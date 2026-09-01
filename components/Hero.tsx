@@ -15,8 +15,8 @@ export default function Hero({
   return (
     <section className="relative isolate min-h-[88vh] overflow-hidden">
       {/* eslint-disable-next-line @next/next/no-img-element */}
-      <img
-        src={imageSrc}
+      <imgs
+        src={"/images/gradien"}
         alt=""
         className="absolute inset-0 h-full w-full object-cover object-center"
       />
