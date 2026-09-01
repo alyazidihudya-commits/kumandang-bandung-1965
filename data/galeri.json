@@ -1,38 +1,34 @@
 [
   {
-    "id": "gal-001",
-    "judul": "Rapat Pengurus",
-    "kategori": "Internal",
-    "src": "/images/placeholder-gallery.svg"
+    "src": "/images/DSC07232.JPG",
+    "caption": "Campingkeun 2025 — malam di hutan pinus"
   },
   {
-    "id": "gal-002",
-    "judul": "Campingkeun 2025",
-    "kategori": "Program",
-    "src": "/images/DSC07232.JPG"
+    "src": "/images/DSC07155.JPG",
+    "caption": "Rapat pengurus periode berjalan"
   },
   {
-    "id": "gal-003",
-    "judul": "Silaturahmi Anggota",
-    "kategori": "Komunitas",
-    "src": "/images/placeholder-gallery.svg"
+    "src": "/images/DSC07152.JPG",
+    "caption": "Silaturahmi anggota di sekretariat"
   },
   {
-    "id": "gal-004",
-    "judul": "Kunjungan Mitra",
-    "kategori": "Kerja sama",
-    "src": "/images/placeholder-gallery.svg"
+    "src": "/images/galeri/placeholder.jpg",
+    "caption": "Kegiatan sosial bersama warga Bandung"
   },
   {
-    "id": "gal-005",
-    "judul": "Malam Kumandang",
-    "kategori": "Publik",
-    "src": "/images/placeholder-gallery.svg"
+    "src": "/images/galeri/placeholder.jpg",
+    "caption": "Malam Kumandang — pertemuan tahunan"
   },
   {
-    "id": "gal-006",
-    "judul": "Arsip 1965",
-    "kategori": "Dokumentasi",
-    "src": "/images/placeholder-gallery.svg"
+    "src": "/images/galeri/placeholder.jpg",
+    "caption": "Arsip kebersamaan dari kampung ke kota"
+  },
+  {
+    "src": "/images/galeri/placeholder.jpg",
+    "caption": "Kunjungan dan kerja sama mitra"
+  },
+  {
+    "src": "/images/hero.jpg",
+    "caption": "Keluarga KUMANDANG di Bandung"
   }
 ]

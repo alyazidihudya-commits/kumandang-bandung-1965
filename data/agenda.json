@@ -1,58 +1,38 @@
 [
   {
-    "id": "ag-001",
-    "judul": "Campingkeun 2025",
     "tanggal": "2025-12-01",
+    "judul": "Campingkeun 2025",
+    "deskripsi": "Acara rutin tahunan untuk menghasilkan generasi baru Kumandang Bandung.",
+    "status": "selesai",
+    "foto": "/images/DSC07232.JPG",
     "waktu": "09.00–22.00 WIB",
-    "lokasi": "Hutan Pinus Bandung",
-    "deskripsi": "Acara rutin tahunan untuk menghasilkan generasi baru kumandang bandung"
+    "lokasi": "Hutan Pinus Bandung"
   },
   {
-    "id": "ag-002",
-    "judul": "Mimbar Bebas",
     "tanggal": "2026-10-04",
+    "judul": "Mimbar Bebas",
+    "deskripsi": "Kajian rutin tiap minggu di asrama.",
+    "status": "akan-datang",
+    "foto": "/images/agenda/placeholder.jpg",
     "waktu": "09.00–12.00 WIB",
-    "lokasi": "Asrama Kumandang Bandung",
-    "deskripsi": "Kajian Rutin Tiap Minggu"
+    "lokasi": "Asrama Kumandang Bandung"
   },
   {
-    "id": "ag-003",
-    "judul": "Kegiatan Sosial Kota",
     "tanggal": "2026-10-18",
+    "judul": "Kegiatan Sosial Kota",
+    "deskripsi": "Aksi bersama warga Bandung, sebagai wujud pengabdian komunitas.",
+    "status": "akan-datang",
+    "foto": "/images/agenda/placeholder.jpg",
     "waktu": "07.00–12.00 WIB",
-    "lokasi": "Kota Bandung",
-    "deskripsi": "Aksi bersama warga Bandung, sebagai wujud pengabdian komunitas."
+    "lokasi": "Kota Bandung"
   },
   {
-    "id": "ag-004",
-    "judul": "Malam Kumandang",
     "tanggal": "2026-11-08",
-    "waktu": "19.00–21.00 WIB",
-    "lokasi": "Bandung",
-    "deskripsi": "Acara tahunan: pertemuan, dokumentasi, dan penampilan bersama anggota."
-  }, 
-  {
-    "id": "ag-005",
     "judul": "Malam Kumandang",
-    "tanggal": "2026-11-08",
+    "deskripsi": "Acara tahunan: pertemuan, dokumentasi, dan penampilan bersama anggota.",
+    "status": "akan-datang",
+    "foto": "/images/agenda/placeholder.jpg",
     "waktu": "19.00–21.00 WIB",
-    "lokasi": "Bandung",
-    "deskripsi": "Acara tahunan: pertemuan, dokumentasi, dan penampilan bersama anggota."
-  },
-  {
-    "id": "ag-006",
-    "judul": "Malam Kumandang",
-    "tanggal": "2026-11-08",
-    "waktu": "19.00–21.00 WIB",
-    "lokasi": "Bandung",
-    "deskripsi": "Acara tahunan: pertemuan, dokumentasi, dan penampilan bersama anggota."
-  },
-  {
-    "id": "ag-007",
-    "judul": "Malam Kumandang",
-    "tanggal": "2026-11-08",
-    "waktu": "19.00–21.00 WIB",
-    "lokasi": "Bandung",
-    "deskripsi": "Acara tahunan: pertemuan, dokumentasi, dan penampilan bersama anggota."
+    "lokasi": "Bandung"
   }
 ]

@@ -4,6 +4,11 @@
 
 :root {
   color-scheme: dark;
+  --bg: #0a0a0a;
+  --text: #f4f4f5;
+  --muted: #a1a1aa;
+  --accent-from: #ff6b35;
+  --accent-to: #e63946;
 }
 
 html {
@@ -12,8 +17,21 @@ html {
 
 body {
   @apply bg-ink-900 text-ink-100 antialiased;
+  font-size: 17px;
+  line-height: 1.7;
 }
 
 ::selection {
-  @apply bg-accent/30 text-white;
+  background: rgba(255, 107, 53, 0.35);
+  color: #fff;
+}
+
+@layer components {
+  .text-gradient-accent {
+    @apply bg-accent-gradient bg-clip-text text-transparent;
+  }
+
+  .line-accent {
+    @apply h-px w-16 bg-accent-gradient;
+  }
 }

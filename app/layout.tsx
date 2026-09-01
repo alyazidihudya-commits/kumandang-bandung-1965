@@ -19,11 +19,11 @@ const spaceGrotesk = Space_Grotesk({
 
 export const metadata: Metadata = {
   title: {
-    default: "Kumandang Bandung 1965",
-    template: "%s · Kumandang Bandung 1965",
+    default: "KUMANDANG BANDUNG",
+    template: "%s · KUMANDANG BANDUNG",
   },
   description:
-    "Situs resmi Kumandang Bandung 1965: profil, struktur organisasi, agenda, galeri, dan kontak.",
+    "Organisasi kekeluargaan mahasiswa asal Pandeglang yang kuliah di Bandung. Rumah kedua untuk silaturahmi, tumbuh bersama, dan pulang dengan hati yang utuh.",
 };
 
 export default function RootLayout({

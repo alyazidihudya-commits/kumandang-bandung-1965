@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
-import Card from "@/components/Card";
+import AgendaBoard from "@/components/AgendaBoard";
+import Container from "@/components/Container";
+import SectionHeading from "@/components/SectionHeading";
 import agenda from "@/data/agenda.json";
+import type { AgendaItem } from "@/lib/content";
 
 export const metadata: Metadata = {
   title: "Agenda",
@@ -8,20 +11,17 @@ export const metadata: Metadata = {
 
 export default function AgendaPage() {
   return (
-    <section className="mx-auto max-w-6xl px-4 py-16">
-      <h1 className="font-display text-4xl font-bold text-white">Agenda</h1>
-      <p className="mt-3 max-w-2xl text-ink-200">
-        Jadwal kegiatan Kumandang Bandung 1965.
-      </p>
-      <div className="mt-10 grid gap-4 md:grid-cols-2">
-        {agenda.map((item) => (
-          <Card key={item.id} title={item.judul} meta={item.tanggal} description={item.deskripsi}>
-            <p className="mt-4 text-sm text-ink-300">
-              {item.waktu} · {item.lokasi}
-            </p>
-          </Card>
-        ))}
-      </div>
+    <section className="pt-24 pb-16 sm:pb-20">
+      <Container>
+        <SectionHeading
+          eyebrow="Kegiatan"
+          title="Agenda & kegiatan"
+          description="Daftar kegiatan KUMANDANG BANDUNG — yang akan datang maupun yang sudah terlaksana."
+        />
+        <div className="mt-10">
+          <AgendaBoard items={agenda as AgendaItem[]} />
+        </div>
+      </Container>
     </section>
   );
 }

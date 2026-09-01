@@ -1,38 +1,47 @@
-import Link from "next/link";
+import Button from "@/components/Button";
+import Container from "@/components/Container";
 
 type HeroProps = {
-  eyebrow?: string;
   title: string;
   subtitle: string;
-  ctaLabel?: string;
-  ctaHref?: string;
+  imageSrc?: string;
 };
 
 export default function Hero({
-  eyebrow = "Kumandang Bandung 1965",
   title,
   subtitle,
-  ctaLabel = "Lihat agenda",
-  ctaHref = "/agenda",
+  imageSrc = "/images/hero.jpg",
 }: HeroProps) {
   return (
-    <section className="relative overflow-hidden border-b border-white/10">
-      <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(34,211,238,0.12),_transparent_55%)]" />
-      <div className="relative mx-auto max-w-6xl px-4 py-20 md:py-28">
-        <p className="mb-3 text-sm font-medium uppercase tracking-[0.2em] text-accent">
-          {eyebrow}
-        </p>
-        <h1 className="font-display max-w-3xl text-4xl font-bold leading-tight tracking-tight text-white md:text-6xl">
-          {title}
-        </h1>
-        <p className="mt-5 max-w-2xl text-lg text-ink-200">{subtitle}</p>
-        <Link
-          href={ctaHref}
-          className="mt-8 inline-flex rounded-full bg-accent px-5 py-2.5 text-sm font-semibold text-ink-950 transition hover:bg-accent-muted"
-        >
-          {ctaLabel}
-        </Link>
-      </div>
+    <section className="relative isolate min-h-[88vh] overflow-hidden">
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      <img
+        src={imageSrc}
+        alt=""
+        className="absolute inset-0 h-full w-full object-cover object-center"
+      />
+      <div className="absolute inset-0 bg-hero-overlay-mobile md:bg-hero-overlay" />
+      <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-transparent to-ink-900/40" />
+
+      <Container className="relative flex min-h-[88vh] items-end pb-16 pt-28 sm:items-center sm:pb-24 sm:pt-32">
+        <div className="max-w-3xl">
+          <p className="text-gradient-accent text-xs font-semibold uppercase tracking-[0.24em] sm:text-sm">
+            Organisasi Kekeluargaan
+          </p>
+          <h1 className="font-display mt-4 text-[2.15rem] font-bold leading-[1.05] tracking-tight text-white sm:text-5xl md:text-6xl lg:text-7xl">
+            {title}
+          </h1>
+          <p className="mt-5 max-w-xl text-base leading-relaxed text-ink-200 sm:text-lg">
+            {subtitle}
+          </p>
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <Button href="/agenda">Lihat Agenda</Button>
+            <Button href="/tentang" variant="outline">
+              Tentang Kami
+            </Button>
+          </div>
+        </div>
+      </Container>
     </section>
   );
 }
