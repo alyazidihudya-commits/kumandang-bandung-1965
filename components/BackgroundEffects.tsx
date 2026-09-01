@@ -2,7 +2,7 @@ export default function BackgroundEffects() {
     return (
       <div
         aria-hidden="true"
-        className="pointer-events-none fixed inset-0 -z-10 overflow-hidden bg-[#0a0a14]"
+        className="pointer-events-none fixed inset-0 z-0 overflow-hidden bg-[#0a0a14]"
       >
         <div className="animate-blob-1 absolute -top-40 -left-40 h-[550px] w-[550px] rounded-full bg-gradient-to-br from-amber-400/25 via-orange-500/15 to-transparent blur-3xl" />
   
