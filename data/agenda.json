@@ -19,20 +19,20 @@
   },
   {
     "tanggal": "2026-10-18",
-    "judul": "Kegiatan Sosial Kota",
-    "deskripsi": "Aksi bersama warga Bandung, sebagai wujud pengabdian komunitas.",
-    "status": "akan-datang",
+    "judul": "Kegiatan keolahragaan",
+    "deskripsi": "Kegiatan rutin olahraga untuk mempererat silaturahmi antaranggota lintas kampus dan angkatan.",
+    "status": "Setiap minggu",
     "foto": "/images/agenda/placeholder.jpg",
     "waktu": "07.00–12.00 WIB",
     "lokasi": "Kota Bandung"
   },
   {
     "tanggal": "2026-11-08",
-    "judul": "Malam Kumandang",
-    "deskripsi": "Acara tahunan: pertemuan, dokumentasi, dan penampilan bersama anggota.",
+    "judul": "Kumandang goes to school",
+    "deskripsi": "Acara tahunan: sosialisasi ke tiap-tiap sekolah SMA di Pandeglang dan pertemuan, dokumentasi, serta penampilan bersama anggota.",
     "status": "akan-datang",
     "foto": "/images/agenda/placeholder.jpg",
     "waktu": "19.00–21.00 WIB",
-    "lokasi": "Bandung"
+    "lokasi": "Pandeglang"
   }
 ]
