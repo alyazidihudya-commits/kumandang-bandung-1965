@@ -4,25 +4,16 @@ import Container from "@/components/Container";
 type HeroProps = {
   title: string;
   subtitle: string;
-  imageSrc?: string;
+  
 };
 
 export default function Hero({
   title,
   subtitle,
-  imageSrc = "/images/gradien",
 }: HeroProps) {
   return (
     <section className="relative isolate min-h-[88vh] overflow-hidden">
-      {/* eslint-disable-next-line @next/next/no-img-element */}
-      <imgs
-        src={"/images/gradien"}
-        alt=""
-        className="absolute inset-0 h-full w-full object-cover object-center"
-      />
-      <div className="absolute inset-0 bg-hero-overlay-mobile md:bg-hero-overlay" />
-      <div className="absolute inset-0 bg-gradient-to-t from-ink-900 via-transparent to-ink-900/40" />
-
+     
       <Container className="relative flex min-h-[88vh] items-end pb-16 pt-28 sm:items-center sm:pb-24 sm:pt-32">
         <div className="max-w-3xl">
           <p className="text-gradient-accent text-xs font-semibold uppercase tracking-[0.24em] sm:text-sm">
