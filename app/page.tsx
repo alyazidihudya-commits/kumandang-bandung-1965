@@ -5,6 +5,7 @@ import SectionHeading from "@/components/SectionHeading";
 import agenda from "@/data/agenda.json";
 import { formatTanggal, sortByTanggal } from "@/lib/content";
 import type { AgendaItem } from "@/lib/content";
+import BackgroundEffects from "@/components/BackgroundEffects";
 
 export default function HomePage() {
   const upcoming = sortByTanggal(
@@ -14,6 +15,7 @@ export default function HomePage() {
 
   return (
     <>
+    <BackgroundEffects />
       <Hero
         title="Rumah Kedua Mahasiswa Pandeglang di Bandung"
         subtitle="KUMANDANG BANDUNG adalah organisasi kekeluargaan mahasiswa asal Pandeglang yang kuliah di Bandung. Di sini kita tumbuh bersama, saling jaga, dan tetap satu keluarga meski jauh dari kampung halaman."
