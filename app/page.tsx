@@ -6,7 +6,7 @@ import agenda from "@/data/agenda.json";
 import { formatTanggal, sortByTanggal } from "@/lib/content";
 import type { AgendaItem } from "@/lib/content";
 import BackgroundEffects from "@/components/BackgroundEffects";
-import global.css from "@/app/globals.css";
+import globals from "@/app/globals.css";
 
 export default function HomePage() {
   const upcoming = sortByTanggal(
